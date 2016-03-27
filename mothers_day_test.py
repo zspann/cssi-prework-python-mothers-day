@@ -20,7 +20,7 @@ class TestMothersDay(unittest.TestCase):
         self.assertEqual(holiday_greeting("Beyonce", "Jay-Z", "Fourth of July"), "Happy Fourth of July, Beyonce! - From Jay-Z")
         self.assertEqual(holiday_greeting("Beyonce", "Jay-Z"), "Happy Mother's Day, Beyonce! - From Jay-Z")
         self.assertEqual(holiday_greeting("Beyonce"), "Happy Mother's Day, Beyonce! - From Your Favorite Child")
-        self.assertEqual(holiday_greeting(""), "Happy Mother's Day, Mom! - From Your Favorite Child")
+        self.assertEqual(holiday_greeting(), "Happy Mother's Day, Mom! - From Your Favorite Child")
 
 
 
